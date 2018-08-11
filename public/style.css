@@ -8,11 +8,22 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  /* position: absolute; */
+  z-index: 100;
+  position: absolute;
   /* transform: translate(100px, 100px) rotate(45deg); */
 }
 .grass {
   width: 80px;
   height: 80px;
   background-image: url(image/grass-1.png);
+}
+
+.tractor {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  transition: all 0.3s;
+  z-index: 1000;
+  background-image: url(image/tractor-e.png);
+  background-size: cover;
 }

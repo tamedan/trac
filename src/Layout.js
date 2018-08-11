@@ -28,6 +28,7 @@ class Layout extends React.Component {
   render() {
     return (
       <div className={"layout"}>
+        <div className={"tractor"} />
         {this.initLayout().map(row => {
           console.log(row);
           return row.map(item => {
