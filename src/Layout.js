@@ -31,10 +31,8 @@ class Layout extends React.Component {
         <h1>Layout</h1>
         {this.initLayout().map(row => {
           console.log(row);
-          row.map(item => {
-            return (
-              <div className={"grass h-" + item.h + " w-" + item.w}>item</div>
-            );
+          return row.map(item => {
+            return <div className={"grass h-" + item.h + " w-" + item.w} />;
           });
         })}
       </div>
