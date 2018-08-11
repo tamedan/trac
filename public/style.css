@@ -3,6 +3,13 @@ body {
   padding: 0;
 }
 
+.game {
+  margin: 0 auto;
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
 .layout {
   width: 480px;
   margin: 0 auto;
@@ -10,7 +17,7 @@ body {
   flex-wrap: wrap;
   z-index: 100;
   position: absolute;
-  /* transform: translate(100px, 100px) rotate(45deg); */
+  transform: translate(100px, 100px) rotate(45deg);
 }
 .grass {
   width: 80px;
@@ -24,6 +31,6 @@ body {
   height: 80px;
   transition: all 0.3s;
   z-index: 1000;
-  background-image: url(image/tractor-e.png);
+  background-image: url(image/tractor-n.png);
   background-size: cover;
 }
