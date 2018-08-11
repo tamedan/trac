@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* position: absolute; */
+  /* transform: translate(100px, 100px) rotate(45deg); */
+}
+.grass {
+  width: 80px;
+  height: 80px;
+  background-image: url(image/grass-1.png);
+}
